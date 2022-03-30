@@ -1,16 +1,512 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
+.cov {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+  }
+  .four {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-left: 20%;
+  }
+  .ol {
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+  .los {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: 0 20%;
+  }
+  .zip {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  .fomr {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+.display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5% 25%;
+    gap: 2%;
 }
-
-* {
-  box-sizing: border-box;
+.setu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6%;
+    margin: 5% 15%;
+}
+.O {
+    margin: 0 45%;
+}
+.loca {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6%;
+}
+.pricing {
+    background-color: #252b42;
+    padding: 5% 0;
+}
+.pric {
+    background-color: #252b42;
+    padding: 5% 0;
+}
+.auto {
+    display: flex;
+    grid-template-columns: 1fr;
+    margin: 5% 45%;
+}
+.price {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2% 20%;
+    gap: 3%;
+}
+.ASTO {
+    margin: 7% 22%;
+}
+.AS  {
+    width: 50%;
+    border-radius: 50%;
+}
+.g {
+    height: 100%;
+}
+.testimonies {
+    margin: 6% 0;
+}
+.Meg  {
+    margin: 0 10%;
+}
+.AG {
+    margin: 0 30%;
+}
+.play {
+    margin: 0 28%;
+}
+.mG {
+    margin-left: 13%;
+}
+.cont:before{
+    position: absolute;
+    content: '';
+    width: 75%;
+    height: 20%;
+    top: 75%;
+    left: 0;
+    background: #fff;
+    transform: skewY(10deg);
+}
+.cont:after{
+    position: absolute;
+    content: '';
+    width: 75%;
+    height: 20%;
+    top: 75%;
+    right: 0;
+    background: #fff;
+    transform: skewY(-10deg);
+}
+.grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    margin: 3% 20%;
+}
+.grids {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    margin: 10% 20%;
+}
+.gridy {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    margin: 10% 20%;
+}
+.MX {
+    margin: 3% 50%;
+}
+.wth {
+    border-radius: 6rem;
+}
+.Img2 {
+    margin: 10% 25%;
+    border-radius: 2rem;
+    overflow: hidden;
+    z-index: 1;
+}
+.BG {
+    margin: 5% 25%;
+}
+.set {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 5%;
+}
+@media screen and (max-width:800px) {
+    .sed {
+        display: block;
+        margin: 2% auto;
+    }
+    .AL {
+        margin: 6% auto;
+    }
+    .Q {
+        margin: 15% 0;
+    }
+    .four {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 6% 10%;
+    }
+    .R {
+        margin: 3% 0;
+    }
+    .zip {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .play {
+        margin: 0 13%;
+    }
+    .HT {
+        margin-left: 0;
+    }
+    .FA {
+        padding: 5px;
+    }
+    .fik {
+        margin-left: 9px;
+        font-size: 1.8rem;
+    }
+    .AG {
+        margin: 0 10%;
+    }
+    .pricing {
+        background-color: #252b42;
+        padding: 15% 0;
+    }
+    .K {
+        padding: 7% 0;
+    }
+    .setu {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 6%;
+        margin: 5% 10%;
+    }
+    .price {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 2% 6%;
+        gap: 3%;
+    }
+    .map {
+        margin: 15% 0;
+    }
+    .mG {
+        display: none;
+    }
+    .gridy {
+        grid-template-columns: 1fr;
+        display: grid;
+        margin: 7% 15%;
+    }
+    .BG {
+        text-align: center;
+    }
+    .S {
+        display: none;
+    }
+    .cont:before{
+        position: absolute;
+        content: '';
+        width: 75%;
+        height: 20%;
+        top: 75%;
+        left: 0;
+        background: #fff;
+        transform: skewY(10deg);
+    }
+    .figma {
+        margin-left: 2rem;
+    }
+    .hest {
+        margin-left: 1rem;
+    }
+    .cont:after{
+        position: absolute;
+        content: '';
+        width: 75%;
+        height: 20%;
+        top: 75%;
+        right: 0;
+        background: #fff;
+        transform: skewY(-10deg);
+    }
+    .MT {
+        margin-top: 6%;
+    }
+    .MD {
+        font-size: 1.3rem;
+    }
+    .cov {
+        background: rgba(0, 0, 0, 0.6);
+        height: 100%;
+        width: 100%;
+        
+      }
+    
+    .Meg  {
+        margin: 0 2%;
+    }
+    .M {
+        margin: 0 auto;
+    }
+    .mG {display: none;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        display: grid;
+        margin: 3% 20%;
+    }
+    .MX {
+        margin: 3% 50%;
+    }
+    .A{
+        margin-top: 10%;
+    }
+    .Img2 {
+        margin: 5% 5%;
+        border-radius: 2rem;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .grids {
+        grid-template-columns: 1fr;
+        display: grid;
+        margin: 3% 10%;
+    }
+    .BG {
+        margin: 0 3%;
+    }
+}
+@media screen and (max-width:450px) {
+    .AG {
+        margin: 0 2%;
+        width: 98%;
+    }
+    .play {
+        margin: 0 2%;
+        padding: 23% 40%;
+    }
+    .BM {
+        display: none;
+    }
+    .gridy {
+        grid-template-columns: 1fr;
+        display: grid;
+        margin: 2% 15%;
+    }
+    .btm {
+        padding: 4% 8%;
+        font-size: 1rem;
+    }
+    .top {
+        margin-top: 28%;
+    }
+    .BG {
+        text-align: center;
+    }
+    .S {
+        display: none;
+    }
+    .BH {
+        width: 100%;
+        margin: 10% 50%;
+    }
+    .cont:before{
+        position: absolute;
+        content: '';
+        width: 75%;
+        height: 20%;
+        top: 75%;
+        left: 0;
+        background: #fff;
+        transform: skewY(10deg);
+    }
+    .figma {
+        margin-left: 2rem;
+    }
+    .hest {
+        margin-left: 2%;
+    }
+    .cont:after{
+        position: absolute;
+        content: '';
+        width: 75%;
+        height: 20%;
+        top: 75%;
+        right: 0;
+        background: #fff;
+        transform: skewY(-10deg);
+    }
+    .MT {
+        margin: 6% 10%;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .MD {
+        font-size: 0.8rem;
+    }
+    .cov {
+        background: rgba(0, 0, 0, 0.6);
+        height: 100%;
+        width: 100%;
+        padding-bottom: 18%;
+      }
+    .M {
+        display: none;
+    }
+    .mG {display: none;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        display: grid;
+        margin: 3% 20%;
+    }
+    .MX {
+        margin: 3% 50%;
+    }
+    .A{
+        margin-top: 10%;
+    }
+    .Img2 {
+        overflow: hidden;
+        z-index: 1;
+    }
+    .grids {
+        grid-template-columns: 1fr;
+        display: grid;
+        margin: 3% 10%;
+    }
+    .BG {
+        margin: 10% 3%;
+    }
+    .display {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 7% 10%;
+        gap: 2%;
+    }
+    .g {
+        height: 100%;
+    }
+    .p {
+        margin: 10% 0;
+    }
+    .auto {
+        display: flex;
+        grid-template-columns: 1fr;
+        margin: 7%;
+        margin-left: 25%;
+    }
+    .font {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .AS  {
+        width: 50%;
+        border-radius: 50%;
+    }
+    .testimonies {
+        margin: 28% 0;
+    }
+    .m {
+        margin: 2% 40%;
+    }
+    .pricing {
+        background-color: #252b42;
+        padding: 30% 0;
+    }
+    .K {
+        padding: 10% 0;
+    }
+    .auto {
+        display: flex;
+        grid-template-columns: 1fr;
+        margin: 5% 35%;
+    }
+    .price {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 2% 20%;
+    }
+    .ASTO {
+        margin: 7% 22%;
+    }
+    .setu {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 5% 0;
+    }
+    .AL {
+        display: none;
+    }
+    .fomr {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 15%;
+      }
+      .loca {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .pic {
+        position: sticky;
+    }
+    .R {
+        display: flex;
+    }
+    .O {
+        margin: 0 2%;
+    }
+    .map {
+        margin: 25% 0;
+    }
+    .sm {
+        margin: 5% 10%;
+    }
+    .four {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 10%;
+    }
+    .zip {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cen {
+        text-align: center;
+    }
+    .d3 {
+        margin-top: 10%;
+    }
+    .los {
+      margin: 10% 20%;
+    }
+    .f {
+        margin: 3% 0;
+    }
+    .h {
+        margin-top: 3%;
+    }
+    .R {
+        margin: 5%;
+    }
 }
